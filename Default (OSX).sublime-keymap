@@ -1,0 +1,15 @@
+[
+    { "keys": ["ctrl+alt+a"], "command": "alignment" },
+    { "keys": ["ctrl+alt+up"], "command": "scroll_lines", "args": {"amount": 5.0} },
+    { "keys": ["ctrl+alt+down"], "command": "scroll_lines", "args": {"amount": -5.0} },
+    { "keys": ["shift+space"], "command": "move", "args": {"by": "words", "forward": true} },
+    { "keys": ["alt+up"], "command": "move_caret_back", "args": { "nlines": 5}  },
+    { "keys": ["alt+down"], "command": "move_caret_forward", "args": { "nlines": 5} },
+    { "keys": ["super+v"], "command": "paste_and_indent" },
+    { "keys": ["super+shift+v"], "command": "paste" },
+    { "keys": ["home"], "command": "move_to", "args": {"to": "bol"} },
+    { "keys": ["end"], "command": "move_to", "args": {"to": "eol"} },
+    { "keys": ["shift+end"], "command": "move_to", "args": {"to": "eol", "extend": true} },
+    { "keys": ["shift+home"], "command": "move_to", "args": {"to": "bol", "extend": true } }
+
+]

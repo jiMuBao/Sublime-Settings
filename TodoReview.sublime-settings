@@ -1,0 +1,24 @@
+{
+    "patterns": {
+        "TODO": "TODO[\\s]*?:+(?P<todo>.*)$",
+        "NOTE": "NOTE[\\s]*?:+(?P<note>.*)$",
+        "FIXME": "FIX ?ME[\\s]*?:+(?P<fixme>.*)$",
+        "CHANGED": "CHANGED[\\s]*?:+(?P<changed>.*)$",
+        "BUG": "BUG[\\s]*?:+(?P<bug>.*)$"
+    },
+    "exclude_folders": [
+        "*.git*"
+    ],
+    "exclude_files": [
+        "*.sublime-workspace",
+        "*.sublime-project"
+    ],
+    "include_paths": [
+        "~/Projects/symphony/code"
+    ],
+    "case_sensitive": false,
+    "render_include_folder": true,
+    "render_spaces": 1,
+    "navigation_forward_skip" : 10,
+    "navigation_backward_skip" : 10
+}

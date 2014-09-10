@@ -1,0 +1,32 @@
+{
+	"installed_packages":
+	[
+		"AdvancedNewFile",
+		"Alignment",
+		"Autoprefixer",
+		"BracketHighlighter",
+		"CursorRuler",
+		"DashDoc",
+		"DocBlockr",
+		"EditorConfig",
+		"Emmet",
+		"GitGutter",
+		"JavaScript Snippets",
+		"jQuery",
+		"JsFormat",
+		"LineEndings",
+		"Origami",
+		"PhpDoc",
+		"SFTP",
+		"SideBarEnhancements",
+		"SublimeCodeIntel",
+		"SublimeLinter",
+		"SublimeLinter-jshint",
+		"SublimeLinter-phpcs",
+		"Sublimerge Pro",
+		"Theme - Cobalt2",
+		"Theme - Spacegray",
+		"TodoReview",
+		"Xdebug Client"
+	]
+}

@@ -1,10 +1,9 @@
-#DOCS
-##Syncing
+#Syncing
 To properly sync your installed packages across different machines, you actually do not want to sync the whole Packages/ and Installed Packages/ folders. The reason for this is that some packages have different versions for different operating systems. By syncing the actual package contents across operating systems, you will possibly run into broken packages.
 
 The proper solution is to sync only the Packages/User/ folder. This folder contains the Package Control.sublime-settings file, which includes a list of all installed packages. If this file is copied to another machine, the next time Sublime Text is started, Package Control will install the correct version of any missing packages.
 
-###Using Git
+##Using Git
 
 Many developers are familiar with Git, and it is a logical choice for keeping files in sync across machines if you don't mind a little manual work. There are a few things to keep in consideration when using Git:
 
@@ -18,11 +17,11 @@ Package Control.system-ca-bundle
 Package Control.cache/
 Package Control.ca-certs/
 ```
-###Using Dropbox
+##Using Dropbox
 
 Dropbox is another popular choice for syncing settings. It has the benefit of automatically syncing files and not having to worry about privacy. In order to use this properly, symlinks must be set up via the command line. The following instructions should provide some guidance.
 
-####Windows
+###Windows
 
 These instructions work for Windows Vista and newer, but unfortunately do not work for Windows XP. If your Dropbox folder is not in the default location, you'll need to change $env:userprofile\Dropbox to your location.
 
@@ -50,7 +49,7 @@ rmdir -recurse User
 cmd /c mklink /D User $env:userprofile\Dropbox\Sublime\User
 ```
 
-####OS X
+###OS X
 
 If your Dropbox folder is not in the default location, you'll need to change ~/Dropbox to your location.
 
@@ -78,7 +77,7 @@ rm -r User
 ln -s ~/Dropbox/Sublime/User
 ```
 
-####Linux
+###Linux
 
 If your Dropbox folder is not in the default location, you'll need to change ~/Dropbox to your location.
 

@@ -1,10 +1,10 @@
 {
     "patterns": {
-        "TODO": "TODO[\\s]*?:+(?P<todo>.*)$",
         "NOTE": "NOTE[\\s]*?:+(?P<note>.*)$",
         "FIXME": "FIX ?ME[\\s]*?:+(?P<fixme>.*)$",
         "CHANGED": "CHANGED[\\s]*?:+(?P<changed>.*)$",
-        "BUG": "BUG[\\s]*?:+(?P<bug>.*)$"
+        "BUG": "BUG[\\s]*?:+(?P<bug>.*)$",
+        "TODO": "TODO[\\s]*?:+(?P<todo>.*)$",
     },
     "exclude_folders": [
         "*.git*"

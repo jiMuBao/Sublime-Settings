@@ -11,6 +11,7 @@
 		0.2
 	],
 	"detect_indentation": false,
+	"detect_slow_plugins": true,
 	"fade_fold_buttons": false,
 	"font_face": "Source Code Pro",
 	"font_size": 12,

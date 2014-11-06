@@ -5,11 +5,13 @@
 		"Alignment",
 		"Autoprefixer",
 		"BracketHighlighter",
+		"CodeFormatter",
 		"CursorRuler",
 		"DashDoc",
 		"DocBlockr",
 		"EditorConfig",
 		"Emmet",
+		"Gist",
 		"GitGutter",
 		"JavaScript Snippets",
 		"jQuery",
@@ -19,6 +21,7 @@
 		"PhpDoc",
 		"SFTP",
 		"SideBarEnhancements",
+		"sublime-expand-selection-to-quotes",
 		"SublimeCodeIntel",
 		"SublimeLinter",
 		"SublimeLinter-jshint",
@@ -27,6 +30,11 @@
 		"Theme - Cobalt2",
 		"Theme - Spacegray",
 		"TodoReview",
+		"Web Inspector",
 		"Xdebug Client"
+	],
+	"repositories":
+	[
+		"https://github.com/kek/sublime-expand-selection-to-quotes"
 	]
 }

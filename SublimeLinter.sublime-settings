@@ -23,7 +23,7 @@
 			},
 			"phpcs":
 			{
-				"@disable": false,
+				"@disable": true,
 				"args":
 				[
 				],

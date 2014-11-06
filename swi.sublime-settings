@@ -1,0 +1,12 @@
+{
+	"breaks":
+	{
+		"/Users/xmdev/Projects/symphony/public_html/assets/app/admin/scripts/requirejs/common/xm/xmGrid.js":
+		{
+			"366":
+			{
+				"status": "disabled"
+			}
+		}
+	}
+}
